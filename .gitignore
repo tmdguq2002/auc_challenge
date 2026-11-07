@@ -1,0 +1,36 @@
+# ── Python ─────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# ── 빌드 산출물 (실행 파일은 저장소가 아니라 배포 파일로) ──
+dist/
+release/
+build/out/
+build/work/
+build/lawedit.ico
+*.spec.bak
+
+# ── 실행 중 생기는 데이터 ───────────────
+cache/
+*.lawj
+*.tmp.hwpx
+
+# ── 비밀정보 (API 키·OC) — 절대 커밋하지 않음 ──
+.env
+*.env
+settings.json
+*.key
+secrets*
+
+# ── 개인 자료 (공문·내부 참고·제출용 문서) ──
+_local/
+
+# ── 운영체제 부산물 ─────────────────────
+*:Zone.Identifier
+Thumbs.db
+desktop.ini
+.DS_Store

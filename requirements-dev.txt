@@ -1,0 +1,5 @@
+# 개발·시험·빌드용
+-r requirements.txt
+pytest>=8.0
+pyinstaller>=6.0
+qtawesome>=1.3      # build/make_icons.py 로 아이콘 PNG를 다시 만들 때만
